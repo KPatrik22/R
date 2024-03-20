@@ -1,9 +1,0 @@
-khinegyzet = function(k,p,N)
-{
-	szum = 0;
-	for(i in 1:length(k))
-	{
-		szum = szum + ((k[i]-N*p[i])^2)/(N*p[i]);
-	}
-	return(szum);
-}
